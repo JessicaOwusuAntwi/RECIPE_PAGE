@@ -1,0 +1,88 @@
+
+body{
+    padding: 15px;
+    background-color: beige
+    ;
+}
+
+.fav_meal, .meal_prep{
+    font-family: 'Sirin stencil',cursive;
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+table thead th{
+    background-color: teal;
+    text-align: center;
+    }
+
+table th,td {
+   padding: 12px 30px;
+
+}
+table{
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 18px;
+font-family: sans-serif;
+width: 60%;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+tbody tr{
+border-bottom: 1px solid coral;
+}
+
+
+tbody tr:last-of-type{
+border-bottom: 2px solid teal;
+}
+
+.meal_prep{
+padding-top: 10px;
+}
+li{
+padding: 10px;
+}
+.card_container{
+display: flex;
+}
+.card{
+background-color: teal;
+width: 220px;
+height: 400px;
+margin: 10px;
+border-radius:15px;
+}
+.card_img{
+height: 180px;
+margin-bottom: 15px;
+background-size:cover;
+border-radius: 15px 15px 0 0;
+}
+.img-1{
+background-image: url(https://biscuitsandladles.com/wp-content/uploads/2018/02/jollof-with-goat-meat-3.jpg);}
+
+.img-2{
+background-image: url(https://www.savorythoughts.com/wp-content/uploads/2022/02/Ghanaian-Jollof-Rice-Savory-Thoughts-9.jpg);
+}
+
+.img-3{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_SnThqoB3XMQxyoJRnrPM5w4DwFVRUfyGdFyJg1jOhoaQ9KmSspD6RGRBmG4hpSChck4&usqp=CAU);
+}
+.img-4{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMMcRjDgIaxEaX_SpZqvmHBqi-HqGQ3aEsQXddpBTsqHYirmDQj2wvaShdjT7iSCaFRnM&usqp=CAU);
+}
+.img-5{
+background-image: url(https://www.preciouscore.com/wp-content/uploads/2021/12/Jollof-Rice-With-Chicken-500x500.jpg);
+}
+.card p{
+    font-family: 'Sirin stencil', cursive;
+    font-size: large;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+.card a{
+    color: coral;
+    padding: 15px 20px;
+}
